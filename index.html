@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title -->
+    <title>Paul Lapkin</title>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon">
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="vendors/css/uikit.min.css">
+        <link rel="stylesheet" href="vendors/css/normalize.css">
+        <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="stylesheet" href="resources/css/queries.css">
+</head>
+<body>
+
+    <!-- STAR HEADER SECTION -->
+
+    <header id="hero" class="scrollify">
+        <nav uk-sticky="start: 200; animation: uk-animation-slide-top">
+            <div class="row">
+                <img src="resources/img/logo.png" alt="paul-lapkin" class="logo">
+                <a class="nav-icon" onclick="openMenu()"><ion-icon name="menu-outline"></ion-icon></a>
+            </div>
+            <div class="menu-container" id="navbar" onclick="closeMenu()">
+                <div class="close-btn" onclick="closeMenu()">
+                    <ion-icon name="close-outline"></ion-icon>
+                </div>
+                <div class="menu-item">
+                    <ul>
+                        <li><a onclick="closeMenu()" href="#hero">Home</a></li>
+                        <li><a onclick="closeMenu()" href="#about">About</a></li>
+                        <li><a onclick="closeMenu()" href="#process">Process</a></li>
+                        <li><a onclick="closeMenu()" href="#experience">Experience</a></li>
+                        <li><a onclick="closeMenu()" href="#portfolio">Portfolio</a></li>
+                        <li><a onclick="closeMenu()" href="#testimonial">Testimonial</a></li>
+                        <li><a onclick="closeMenu()" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <div uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
+                <h1>Paul Lapkin</h1>
+                <span>#User Experience  #Music  #Creative Direction</span>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <ion-icon name="arrow-down-outline"></ion-icon>
+            </a>
+        </div>
+    </header>
+
+    <!-- END HEADER SECTION -->
+
+
+
+
+    <!-- STAR ABOUT SECTION -->
+
+    <div id="about" class="scrollify">
+        <div class="row">
+            <div class="grid-about-container">
+                <div class="grid-about-items" uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
+                    <img src="resources/img/paul.jpg" alt="Paul" class="paul">
+                </div>
+                <div class="grid-about-items" uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
+                    <p class="intro">Hi, i'm Paul Lapkin, Experience crafter from Canada</p>
+                    <p class="description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit deserunt, quos fugiat voluptatibus aliquid aspernatur, praesentium eligendi eaque, reprehenderit in voluptatum libero possimus eum ducimus tempore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, impedit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, sed. <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus unde excepturi ab recusandae et error. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, placeat? Accusamus omnis maxime, ea quasi dolor minima sint minus animi quidem, laborum provident voluptate voluptatibus quisquam ut, est nostrum corporis accusantium ab velit autem.
+                    </p>
+                    <div class="about-ctn-btn">
+                        <a href="#" class="btn btn-full">Hire Me!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END ABOUT SECTION -->
+
+
+        <!-- STAR PROCESS SECTION -->
+
+
+        <section id="process" class="scrollify">
+            <div class="row">
+                <div class="section-title">
+                    <h2>My Working Process</h2>
+                    <p>Hi, i'm Paul Lapkin, Experience crafter from Canada</p>
+                </div>
+                <div class="grid-process-container">
+                    <div class="gird-process-items">
+                        <ion-icon name="desktop-outline"></ion-icon>
+                        <h4>Design</h4>
+                    </div>
+                    <div class="gird-process-items">
+                        <ion-icon name="trending-up-outline"></ion-icon>
+                        <h4>Development</h4>
+                    </div>
+                    <div class="gird-process-items">
+                        <ion-icon name="stats-chart-outline"></ion-icon>
+                        <h4>Testing</h4>
+                    </div>
+                    <div class="gird-process-items">
+                        <ion-icon name="airplane-outline"></ion-icon>
+                        <h4>Launch</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- END PROCESS SECTION -->
+
+
+        <!-- STAR EXPERIENCE SECTION -->
+
+
+        <section id="experience" class="scrollify">
+            <div class="row">
+                <div class="grid-experience-container">
+                    <div class="grid-experience-items">
+                        <h3>Work Experience</h3>
+                        <div class="job">
+                            <h4>Mad Max Design</h4>
+                            <span>OCT 2013 - june 2014</span>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut autem enim non quasi accusantium dolor cumque iure sint sapiente consectetur!</p>
+                        </div>
+                        <hr>
+                        <div class="job">
+                            <h4>Crazy Design</h4>
+                            <span>OCT 2014 - june 2015</span>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut autem enim non quasi accusantium dolor cumque iure sint sapiente consectetur!</p>
+                        </div>
+                    </div>
+                    <div class="grid-education-items">
+                        <h3>Education</h3>
+                        <div class="education">
+                            <h4>Maddison University</h4>
+                            <span>OCT 2013 - june 2014</span>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut autem enim non quasi accusantium dolor cumque iure sint sapiente consectetur!</p>
+                        </div>
+                        <hr>
+                        <div class="education">
+                            <h4>Max Design & Art Institute</h4>
+                            <span>OCT 2014 - Present</span>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut autem enim non quasi accusantium dolor cumque iure sint sapiente consectetur!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- END EXPERIENCE SECTION -->
+
+
+        <!-- STAR PORTFOLIO SECTION -->
+
+
+        <section id="portfolio" class="scrollify">
+            <div class="row">
+                <div class="section-title">
+                    <div class="section-title">
+                        <h2>My Latest Works</h2>
+                        <p>Hi, i'm Paul Lapkin, Experience crafter from Canada</p>
+                    </div>
+                    <div  uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+                        <div class="portfolio-filter">
+                            <button type="button" data-filter="all">All</button>
+                            <button type="button" data-filter=".web-design">Web Design</button>
+                            <button type="button" data-filter=".web-dev">Web Development</button>
+                            <button type="button" data-filter=".wp">WordPress</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-porfolio-container" uk-lightbox="animation: slide">
+                    <div class="grid-portofolio-items mix web-design">
+                        <a class="uk-inline" href="resources/img/lw1.jpg" data-caption="Work 1">
+                            <img src="resources/img/lw1.jpg" width="1800" height="1200" alt="work">
+                        </a>
+                    </div>
+                    <div class="grid-portofolio-items mix web-dev">
+                        <a class="uk-inline" href="resources/img/lw2.jpg" data-caption="Work 2">
+                            <img src="resources/img/lw2.jpg" width="1800" height="1200" alt="work">
+                        </a>
+                    </div>
+                    <div class="grid-portofolio-items mix wp">
+                        <a class="uk-inline" href="resources/img/lw3.jpg" data-caption="Work 3">
+                            <img src="resources/img/lw3.jpg" width="1800" height="1200" alt="work">
+                        </a>
+                    </div>
+                    <div class="grid-portofolio-items mix web-design">
+                        <a class="uk-inline" href="resources/img/lw4.jpg" data-caption="Work 4">
+                            <img src="resources/img/lw4.jpg" width="1800" height="1200" alt="work">
+                        </a>
+                    </div>
+                    <div class="grid-portofolio-items mix wp">
+                        <a class="uk-inline" href="resources/img/lw5.jpg" data-caption="Work 5">
+                            <img src="resources/img/lw5.jpg" width="1800" height="1200" alt="work">
+                        </a>
+                    </div>
+                    <div class="grid-portofolio-items mix web-dev">
+                        <a class="uk-inline" href="resources/img/lw6.jpg" data-caption="Work 6">
+                            <img src="resources/img/lw6.jpg" width="1800" height="1200" alt="work">
+                        </a>
+                    </div>
+                    <div class="grid-portofolio-items mix wp">
+                        <a class="uk-inline" href="resources/img/lw7.jpg" data-caption="Work 7">
+                            <img src="resources/img/lw7.jpg" width="1800" height="1200" alt="work">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- END PORTFOLIO SECTION -->
+
+
+
+
+        <!-- STAR TESTIMONIAL SECTION -->
+
+        <section id="testimonial" class="scrollify">
+            <div class="row">
+                <div class="grid-testimonial-container">
+                    <div class="grid-testimonial-items">
+                        <div class="quote">
+                            <img src="resources/img/quote.png" alt="">
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum provident, quas blanditiis maxime voluptatem incidunt modi sunt cupiditate reiciendis enim. Debitis necessitatibus odit, error voluptatem est perspiciatis at? Quia, excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, labore!</p>
+                        <div class="signature">
+                            <img src="resources/img/signature.png" alt="signature">
+                        </div>
+                        <h4>Daniel Croft</h4>
+                        <span>Creative Designer, Levy</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- END TESTIMONIAL SECTION -->
+
+
+
+        <!-- STAR CONTACT SECTION -->
+
+
+        <section id="contact" class="scrollify">
+            <div class="row">
+                <div class="grid-contact-conainer">
+                    <div class="grid-contact-items">
+                        <h3>Leave a message</h3>
+                        <form action="#" method="POST">
+                            <div class="single-form">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="single-form">
+                                <input type="text" placeholder="Email" required>
+                            </div>
+                            <div class="single-form">
+                                <input type="text" placeholder="Subject" required>
+                            </div>
+                            <div class="single-form">
+                                <textarea cols="30"  rows="10" placeholder="Message*" required></textarea>
+                            </div>
+                            <div class="single-form-btn" uk-scrollspy="cls: uk-animation-shake; repeat: true">
+                                <input class="btn btn-full" type="Submit" value="Hire Me">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="grid-contact-items nested-grid-contact-container">
+                        <div class="nested-grid-contact-items">
+                            <h3>Address</h3>
+                            <p>Gulsan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulsan-1, Dhaka 1212</p>
+                        </div>
+                        <div class="nested-grid-contact-items">
+                            <h3>Phone</h3>
+                            <p>+880 1718350009 <br> +880 1705159483</p>
+                        </div>
+                        <div class="nested-grid-contact-items">
+                            <h3>Web</h3>
+                            <p>Mail: mehedi.ofcc@gmail.com <br> Website: www.facebook.com/mehedi04</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- END CONTACT SECTION -->
+
+
+
+        <!-- STAR FOOTER SECTION -->
+
+        <footer id="footer" class="scrollify">
+            <div class="row">
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-dribbble"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-behance"></ion-icon></a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    Copyright: Mehedi Hasan - All Rights Reserved.
+                    <div class="totop">
+                        <a href="#" uk-totop></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- END FOOTER SECTION -->
+
+
+
+
+
+
+
+
+        <!-- Script -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script src="vendors/js/uikit.min.js"></script>
+        <script src="vendors/js/uikit-icons.min.js"></script>
+        <script src="vendors/js/mixitup.min.js"></script>
+        <script src="vendors/js/particles.min.js"></script>
+        <script src="vendors/js/app.js"></script>
+        <script src="vendors/js/jquery.scrollify.js"></script>
+        <script src="resources/js/script.js"></script>
+    
+</body>
+</html>
